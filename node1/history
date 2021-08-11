@@ -1,0 +1,42 @@
+eth.coinbase
+eth.getBalance(eth.coinbase)
+minser.start()
+miner.start()
+clique.getSnapshot(2)
+clique.status()
+admin.peers
+admin.addPeer("enode://e36b87139a187600c4b6e36f9044f1693028c929304ffeedf2e72acc02d146414296ad81f24fc8ef8cb74a9e79a508a3facf53c09b00c230e5ff28e96af1d5d9@222.112.78.17:30303")
+admin.peers
+admin.nodeInfo.enode
+admin.peers
+miner.start()
+clique.status()
+net.peerCount
+eth.blockNumber
+eth.sendTransaction({from:eth.coinbase, to:"0xa4f879193451f58d6718b122f2769277709590f2", value: 2000})
+eth.sendTransaction({from:eth.coinbase, to:"0xa4f879193451f58d6718b122f2769277709590f2", value: 20000000})
+clique.propose("0xbc916ba95f59d227bc45165afa33d557bf063a86", true)
+clique.propose("0xa4f879193451f58d6718b122f2769277709590f2", true)
+clique.status()
+clique.propose("0xa4f879193451f58d6718b122f2769277709590f2", true)
+clique.getSigners()
+eth.blockNumber
+clique.status()
+clique.proposls()
+clique.proposals()
+clique
+clique.getProposals
+clique.getProposals()
+clique.getProposals(60)
+eth.blockNumber
+clique.getProposals(59)
+clique.getProposals(59
+clique.getSigners(60)clique.getSigners(60)
+clique.getSigners(60)
+clique.propose("0xa4f879193451f58d6718b122f2769277709590f2", true)
+l
+;
+)
+clique.propose("0xa4f879193451f58d6718b122f2769277709590f2", true)
+... clique.propose("0xa4f879193451f58d6718b122f2769277709590f2", true)
+clique.status()
