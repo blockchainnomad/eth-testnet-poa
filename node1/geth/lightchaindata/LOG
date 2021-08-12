@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 =============== Aug 11, 2021 (UTC) ===============
 13:09:21.052565 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
 13:09:21.057769 db@open opening
@@ -6,3 +7,13 @@
 13:09:21.060421 db@open done T·2.63609ms
 13:09:21.067400 db@close closing
 13:09:21.067442 db@close done T·40.09µs
+=======
+=============== Aug 12, 2021 (KST) ===============
+14:30:59.336876 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:30:59.370558 db@open opening
+14:30:59.386909 version@stat F·[] S·0B[] Sc·[]
+14:30:59.388765 db@janitor F·2 G·0
+14:30:59.388765 db@open done T·17.6299ms
+14:30:59.400232 db@close closing
+14:30:59.400761 db@close done T·529.1µs
+>>>>>>> Stashed changes

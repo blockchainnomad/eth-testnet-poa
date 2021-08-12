@@ -1,0 +1,23 @@
+eth.coinbase
+eth.getBalance(accounts[0])
+eth.getBalance(eth.accounts[0])
+admin.nodeInfo.enode
+admin.peers
+miner.start()
+clique.getSigners()
+clique.propose("0xa934d3c96d0fb9988accfbe1ec98f8c70cd9780a", true)
+clique.getSigners()
+eth.sendTransaction({from:eth.coinbase, to:"0xcb3b37207049a41085b4bcc97e1892010672c262", value: 10000000000})
+// node1 accounts[1]로 이더 전송
+eth.sendTransaction({from:eth.coinbase,to:"0xa934d3c96d0fb9988accfbe1ec98f8c70cd9780a", value: 10000000000000})
+admin.peers
+eth.blockNumber
+clique.status()
+clique.getSigners()
+eth.getBalance(eth.coinbase)
+eth.getBalance(eth.accounts[1])
+admin.peers
+eth.getBalance(eth.coinbase)
+eth.getBalance(eth.accounts[1])
+eth.sendTransaction({from:eth.coinbase,to:"0xa934d3c96d0fb9988accfbe1ec98f8c70cd9780a", value:1211212122000})
+eth.unlockAccount(eth.accounts[0])
