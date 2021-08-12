@@ -1,0 +1,50 @@
+eth.blockNumber
+eth.sendTransaction({from:eth.coinbase,to:"0x965c374c5eC2438C7280Db690Cfb9Ed5866F1Af5", value: 2000})
+clique.getSigners()
+clique.getSigners(2)
+net.peerCount
+eth.blockNumber
+miner.start()
+admin.peers
+eth.getBalance(eth.accounts[1])
+admin.peers
+net.peerCount
+admin.peers
+admin.addPeer("enode://bd3e4d9328070d3c72cc79d36d2035ed07ca078e16cda97bda8e1a3db56dd1b74f7a3b4a3ca5aeb9cda3b6f241469c0bdb28cfa4d86a92a852e21e1eef65af38@192.168.13.114:30301")
+admin.peers
+admin.addPeer("enode://bd25204ba9c1836024252310ef543c3bfaf18397b76073e3c4b0de08422de2fae6276e0ad3c1a075f51e3e6c7732e6110dabdbe12ed02bd275fd7bb55c8ffcd7@192.168.13.114:30303")
+admin.peers
+minner.start()
+miner.start()
+eth.accounts
+eth.sendTransaction({from:eth.coinbase,to:"0xa934d3c96d0fb9988accfbe1ec98f8c70cd9780a", value: 2000})
+eth.blockNumber
+net.peerCount
+clique.status()
+eth.getBalance(eth.accounts[1])
+clique.status()
+clique.getSigners()
+eth.blockNumber
+clique.proposals
+clique.propose("0xa934d3c96d0fb9988accfbe1ec98f8c70cd9780a", true)
+clique.proposlas
+clique.proposals
+miner.start()
+admin.peers
+eth.blockNumber
+miner.start()
+admin.peers
+eth.blockNumber
+net.peerCount
+v
+clique.getSigners()
+clique.status()
+eth.getBalance(eth.accounts[1])
+clique.getSigners()
+eth.blockNumber
+clique.status()
+eth.getBalance(eth.accounts[1])
+clique.status()
+eth.blockNumber
+eth.sendTransaction({from:eth.coinbase, to:"0xcb3b37207049a41085b4bcc97e1892010672c262", value: 1212122000})
+eth.getBalance("0xa934d3c96d0fb9988accfbe1ec98f8c70cd9780a")
