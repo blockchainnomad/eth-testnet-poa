@@ -48,3 +48,12 @@ clique.status()
 eth.blockNumber
 eth.sendTransaction({from:eth.coinbase, to:"0xcb3b37207049a41085b4bcc97e1892010672c262", value: 1212122000})
 eth.getBalance("0xa934d3c96d0fb9988accfbe1ec98f8c70cd9780a")
+eth.blocknumber
+eth.blockNumber
+admin.peers
+admin.nodeInfo.enode
+admin.addPeer("enode://be0d8154175695d93e6639cb04ef7b98e5ed919df49cd9331caa169c13f08a4ff545139ca771cef90a827f4a8ae7683970fc39521c2221a9b94e651e2e39b118@222.112.78.17:30304")
+admin.nodeInfo.enode
+admin.addPeer("enode://81bc8eeee778c7ea548adff8724dd5abd3c898ac18d68b2dd02fe5caf8240f1db4529fc92ceb2afc77643b83d8334aced3345d8d9837d3d0aa927b197243a801@222.112.78.17:30303")
+admin.nodeInfo.enode
+admin.peers
